@@ -51,9 +51,10 @@ def series_up(list)
         if count >=1
             new_n = n*(n+1)/2
             new_list.push(new_n)
+            count = count = 1
         end
     end
-    
+    return new_list
 end
     
 print series_up(5)
