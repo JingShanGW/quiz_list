@@ -49,7 +49,7 @@ def series_up(list)
             x = x - 1
         end
         if count >=1
-            new_n = n*(n+1)/2
+            new_n = x*(x+1)/2
             new_list.push(new_n)
             count = count = 1
         end
