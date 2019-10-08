@@ -38,3 +38,22 @@ end
 #print bigger_two([1, 2], [2, 3])
 #print bigger_two([1,2], [1,2])
 #print bigger_two([7,8], [1,2])
+
+def series_up(list)
+    count = 0
+    n = 0
+    new_list = []
+    list.times do |x|
+        if x >= 1 
+            count = count + 1
+            x = x - 1
+        end
+        if count >=1
+            new_n = n*(n+1)/2
+            new_list.push(new_n)
+        end
+    end
+    
+end
+    
+print series_up(5)
