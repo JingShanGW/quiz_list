@@ -13,6 +13,7 @@ puts three_even([1, 2, 3, 4, 5, 6]) #False
 puts three_even([1, 2, 3, 4, 5, 5]) #False
 puts three_even([1, 2, 6, 4, 5, 5]) #True
 puts"\n" #so i it seperates the code when it prints in the terminal
+
 def bigger_two(list, list1)
     total = 0
     total1 = 0
